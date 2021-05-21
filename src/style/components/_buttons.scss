@@ -62,11 +62,11 @@
 
 /* Resume Style */
 .cta-btn--resume {
-  color: $white-color;
-  border: 2px solid $white-color;
+  color: $text-on-primary-color;
+  border: 2px solid $text-on-primary-color;
 
   &::after {
-    background: $white-color;
+    background: $text-on-primary-color;
   }
 
   &:hover {
