@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile_alt.jpg',
   paragraphOne:
-    "I'm a software engineer currently working at Bume. My focus is to always become a better problem solver. Although I love programming, I think programming has is valuable only if it can solve problems.",
+    "I'm a software engineer currently working at Bume. My focus is to always become a better problem solver. Although I love programming, I think programming is valuable only if it can solve problems.",
   paragraphTwo:
-    "I have a solid Node.js + React.js stack knowledge combined to SQL or NoSQL databases.  I also can also work with python, C stacks. At the moment I'm focusing in learn the basics concepts about software engineering, including architecture, cloud computing, clean code, design patterns, deep OOP concepts. I'm learning Java too.",
+    "I have a solid Node.js + React.js stack knowledge combined to SQL or NoSQL databases. I also can also work with python and C. At the moment I'm focusing in learn the basics concepts about software engineering including: architecture, cloud computing, clean code, design patterns and deep OOP concepts.",
   paragraphThree:
-    "Talking about my education, I have a electrical engineering undergraduate degree at UFMG. Complementarily to that I'm always following tutorials and studying topics that I consider important by my own.",
+    "Talking about my education, I have a electrical engineering undergraduate degree focused on software engineering at UFMG. Complementarily to that I'm always following tutorials and studying topics that I consider important by my own.",
   resume: '', // if no resume, the button will not show up
 };
 
