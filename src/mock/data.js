@@ -17,10 +17,10 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile_alt.jpg',
   paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphTwo: ' ',
+  paragraphThree: ' ',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -29,8 +29,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Flashcards',
+    info: 'flashcards',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -38,11 +38,29 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Stocks Sort',
+    info: 'stocks sort',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Tic Tac Toe',
+    info: 'tic tac toe',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/marciorasf/tic-tac-toe',
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'MCP',
+    info: 'mcp',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/marciorasf/MCP',
   },
 ];
 
