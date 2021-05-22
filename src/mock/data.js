@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Márcio', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'marciorasf', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: '@marciorasf personal website', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,31 +18,41 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile_alt.jpg',
-  paragraphOne: '',
-  paragraphTwo: ' ',
-  paragraphThree: ' ',
+  paragraphOne: 'eu ',
+  paragraphTwo: 'sou',
+  paragraphThree: 'marciorasf',
   resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: 'Flashcards',
+  //   info: 'flashcards',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: 'Stocks Sort',
+  //   info: 'stocks sort',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Flashcards',
-    info: 'flashcards',
-    info2: '',
+    img: 'docker-fundamentals.png',
+    title: 'Docker Fundamentals',
+    info: 'This is kind of a tutorial that I wrote while studying the Docker fundamentals. It contains the basic information to enable someone to start working with Docker.',
+    info2:
+      'The main motivation for this tutorial was to consolidate my own knowledge. Although, I hope it can help another person.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Stocks Sort',
-    info: 'stocks sort',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/marciorasf/docker-fundamentals',
   },
   {
     id: nanoid(),
@@ -55,22 +65,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'MCP',
-    info: 'mcp',
-    info2: '',
+    img: 'mcp.png',
+    title: 'McCulloch-Pitts Model',
+    info: 'An generic implementation of a McCulloch-Pitts model for building neural networks.',
+    info2:
+      'I implemented this model primarily to use on the artificial neural networks discipline. Then, I simplified it to help other people.',
     url: '',
     repo: 'https://github.com/marciorasf/MCP',
-  },
-  {
-    id: nanoid(),
-    img: 'docker-fundamentals.png',
-    title: 'Docker Fundamentals',
-    info: 'This is kind of a tutorial that I wrote while studying the Docker fundamentals. It contains the basic information to enable someone to start working with Docker.',
-    info2:
-      'The main motivation for this tutorial was to consolidate my own knowledge. Although, I hope it can help another person.',
-    url: '',
-    repo: 'https://github.com/marciorasf/docker-fundamentals',
   },
 ];
 
