@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile_alt.jpg',
+  img: 'profile.png',
   paragraphOne:
     "I'm a software engineer currently working at Bume. My focus is to always become a better problem solver. Although I love programming, I think programming is valuable only if it can solve problems.",
   paragraphTwo:
