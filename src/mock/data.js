@@ -64,7 +64,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'docker-fundamentals.png',
     title: 'Docker Fundamentals',
     info: 'This is a kind of a tutorial that I wrote while studying the Docker fundamentals. It contains the basic information to enable someone start work with Docker.',
     info2:
