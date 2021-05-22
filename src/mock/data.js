@@ -48,9 +48,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Tic Tac Toe',
-    info: 'tic tac toe',
-    info2: '',
-    url: '',
+    info: 'This is a simple tic tac toe game. It has both multiplayer and singlepalyer modes. The singleplayer mode has some different difficulties to choose. ',
+    info2: "It's also a PWA so it can be saved on mobile devices to offline usage.",
+    url: 'https://tic-tac-toe.marciorasf.space',
     repo: 'https://github.com/marciorasf/tic-tac-toe',
   },
   {
