@@ -46,9 +46,9 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'tic-tac-toe.png',
     title: 'Tic Tac Toe',
-    info: 'This is a simple tic tac toe game. It has both multiplayer and singlepalyer modes. The singleplayer mode has some different difficulties to choose. ',
+    info: 'A simple tic tac toe game. It has both multiplayer and singlepalyer modes. The singleplayer mode has some different difficulties to choose. ',
     info2: "It's also a PWA so it can be saved on mobile devices to offline usage.",
     url: 'https://tic-tac-toe.marciorasf.space',
     repo: 'https://github.com/marciorasf/tic-tac-toe',
@@ -66,8 +66,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Docker Fundamentals',
-    info: 'mcp',
-    info2: '',
+    info: 'This is a kind of a tutorial that I wrote while studying the Docker fundamentals. It contains the basic information to enable someone start work with Docker.',
+    info2:
+      'The main motivation for this tutorial was to consolidate my own knowledge. Although, I hope it can help another person.',
     url: '',
     repo: 'https://github.com/marciorasf/docker-fundamentals',
   },
