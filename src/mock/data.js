@@ -62,6 +62,15 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/marciorasf/MCP',
   },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Docker Fundamentals',
+    info: 'mcp',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/marciorasf/docker-fundamentals',
+  },
 ];
 
 // CONTACT DATA
