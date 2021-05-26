@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 
-const data = {
+const hero = {
   title: "Hello, I'm ",
   name: 'Márcio',
   subtitle: '',
@@ -14,7 +14,7 @@ const Header = () => {
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  const { title, name, subtitle, cta } = data;
+  const { title, name, subtitle, cta } = hero;
 
   useEffect(() => {
     if (window.innerWidth > 769) {

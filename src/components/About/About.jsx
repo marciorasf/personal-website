@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 
-const data = {
+const about = {
   img: 'profile.png',
   paragraphOne:
     "I'm a software engineer currently working at Bume. My focus is to always become a better problem solver. Although I love programming, I think programming is valuable only if it can solve problems.",
@@ -16,7 +16,7 @@ const data = {
 };
 
 const About = () => {
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = data;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);

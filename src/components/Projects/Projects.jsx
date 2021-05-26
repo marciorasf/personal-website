@@ -1,14 +1,63 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
-import PortfolioContext from '../../context/context';
+import { nanoid } from 'nanoid';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Projects = () => {
-  const { projects } = useContext(PortfolioContext);
+const projects = [
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Flashcards',
+    info: "This is a tool that I developed to help me when I'm studying for tech interviews and software engineering topics in general.",
+    info2:
+      "It's not complete yet, so maybe the data can be erased sometimes 😅. But I intend to finish it until 2021/06/05. ",
+    url: 'https://flashcards.marciorasf.space',
+    repo: 'https://github.com/marciorasf/flashcards-web', // if no repo, the button will not show up
+  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: 'Stocks Sort',
+  //   info: 'stocks sort',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
+  {
+    id: nanoid(),
+    img: 'docker-fundamentals.png',
+    title: 'Docker Fundamentals',
+    info: 'This is kind of a tutorial that I wrote while studying the Docker fundamentals. It contains the basic information to enable someone to start working with Docker.',
+    info2:
+      'The main motivation for this tutorial was to consolidate my own knowledge. Although, I hope it can help another person.',
+    url: '',
+    repo: 'https://github.com/marciorasf/docker-fundamentals',
+  },
+  {
+    id: nanoid(),
+    img: 'tic-tac-toe.png',
+    title: 'Tic Tac Toe',
+    info: 'A simple tic tac toe game. It has both multiplayer and singleplayer modes. The singleplayer mode has some different difficulties to choose. ',
+    info2: "It's also a PWA so it can be saved on mobile devices to play offline.",
+    url: 'https://tic-tac-toe.marciorasf.space',
+    repo: 'https://github.com/marciorasf/tic-tac-toe',
+  },
+  {
+    id: nanoid(),
+    img: 'mcp.png',
+    title: 'McCulloch-Pitts Model',
+    info: 'An generic implementation of a McCulloch-Pitts model for building neural networks.',
+    info2:
+      'I implemented this model primarily to use on the artificial neural networks discipline. Then, I simplified it to help other people.',
+    url: '',
+    repo: 'https://github.com/marciorasf/MCP',
+  },
+];
 
+const Projects = () => {
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -26,7 +75,7 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="My Projects" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
