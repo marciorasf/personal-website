@@ -1,13 +1,22 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
-import PortfolioContext from '../../context/context';
+
+const data = {
+  img: 'profile.png',
+  paragraphOne:
+    "I'm a software engineer currently working at Bume. My focus is to always become a better problem solver. Although I love programming, I think programming is valuable only if it can solve problems.",
+  paragraphTwo:
+    "I have a solid Node.js + React.js stack knowledge combined to SQL or NoSQL databases. I also can also work with python and C. At the moment I'm focused in learning software engineering concepts, including: architecture, cloud computing, clean code, design patterns and deep OOP concepts.",
+  paragraphThree:
+    "Talking about my education, I have a electrical engineering undergraduate degree focused on software engineering at UFMG. Complementarily to that I'm always following tutorials and studying topics that I consider important by my own.",
+  resume: '', // if no resume, the button will not show up
+};
 
 const About = () => {
-  const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = data;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -37,17 +46,9 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={500} delay={250} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
+                <p className="about-wrapper__info-text">{paragraphOne}</p>
+                <p className="about-wrapper__info-text">{paragraphTwo}</p>
+                <p className="about-wrapper__info-text">{paragraphThree}</p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
