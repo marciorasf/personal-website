@@ -2,7 +2,6 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import { nanoid } from 'nanoid';
-import GithubButtons from '../GithubButtons/GithubButtons';
 
 const footer = {
   networks: [
@@ -19,13 +18,8 @@ const footer = {
   ],
 };
 
-const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
-};
-
 const Footer = () => {
   const { networks } = footer;
-  const { isEnabled } = githubButtons;
 
   return (
     <footer className="footer navbar-static-bottom">
@@ -59,8 +53,6 @@ const Footer = () => {
             Jacobo Martínez
           </a>
         </p>
-
-        {isEnabled && <GithubButtons />}
       </Container>
     </footer>
   );
