@@ -1,13 +1,29 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
-import PortfolioContext from '../../context/context';
+import { nanoid } from 'nanoid';
 import GithubButtons from '../GithubButtons/GithubButtons';
 
-import { githubButtons } from '../../mock/data';
+const footer = {
+  networks: [
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/marciorasf',
+    },
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/marciorasf/',
+    },
+  ],
+};
+
+const githubButtons = {
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+};
 
 const Footer = () => {
-  const { footer } = useContext(PortfolioContext);
   const { networks } = footer;
   const { isEnabled } = githubButtons;
 
