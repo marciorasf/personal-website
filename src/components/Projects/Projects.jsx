@@ -9,7 +9,7 @@ import ProjectImg from '../Image/ProjectImg';
 const projects = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'hippocards.png',
     title: 'Flashcards',
     info: "This is a tool that I developed to help me when I'm studying for tech interviews and software engineering topics in general.",
     info2:
