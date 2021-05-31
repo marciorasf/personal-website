@@ -51,8 +51,8 @@ const Footer = () => {
           © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Jacobo Martínez
-          </a>
-          and modified by
+          </a>{' '}
+          and modified by{' '}
           <a href="https://github.com/marciorasf" target="_blank" rel="noopener noreferrer">
             me
           </a>
