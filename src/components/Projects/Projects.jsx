@@ -18,7 +18,7 @@ const projects = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'b3.jpg',
     title: 'B3 Magical Formula',
     info: "Project based on Joel Greenblatt's book: The Little Book That Beats The Marked. My main intent on this project aws to help me on my investiment decisions.",
     info2:
