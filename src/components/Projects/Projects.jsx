@@ -10,22 +10,22 @@ const projects = [
   {
     id: nanoid(),
     img: 'hippocards.png',
-    title: 'Flashcards',
-    info: "This is a tool that I developed to help me when I'm studying for tech interviews and software engineering topics in general.",
-    info2:
-      "It's not complete yet, so maybe the data can be erased sometimes 😅. But I intend to finish it until 2021/06/05. ",
-    url: 'https://flashcards.marciorasf.space',
-    repo: 'https://github.com/marciorasf/flashcards-web', // if no repo, the button will not show up
+    title: 'Hippocards',
+    info: "This is a flashcards tool that I developed to help me when I'm studying for tech interviews and software engineering topics in general.",
+    info2: '',
+    url: 'https://hippocards.marciorasf.space',
+    repo: 'https://github.com/marciorasf/hippocards-web',
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: 'Stocks Sort',
-  //   info: 'stocks sort',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'B3 Magical Formula',
+    info: "Project based on Joel Greenblatt's book: The Little Book That Beats The Marked. My main intent on this project aws to help me on my investiment decisions.",
+    info2:
+      'It basically collects the stocks indicators and then run an rank algorithm. I made this rank algorithm generic, so another people can customize it.',
+    url: '',
+    repo: 'https://github.com/marciorasf/b3-magical-formula',
+  },
   {
     id: nanoid(),
     img: 'docker-fundamentals.png',
