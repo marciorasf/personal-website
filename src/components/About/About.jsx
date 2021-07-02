@@ -7,7 +7,7 @@ import AboutImg from '../Image/AboutImg';
 const about = {
   img: 'profile.png',
   paragraphOne:
-    "I'm a software engineer currently working at Bume. My focus is to always become a better problem solver. Although I love programming, I think it's valuable only if it can solve problems.",
+    "I'm a software developer currently working at Letalk. My focus is to always become a better problem solver. Although I love programming, I think it's valuable only if it can solve problems.",
   paragraphTwo:
     "I have a solid Node.js + React.js stack knowledge combined to SQL or NoSQL databases. I also can also work with python and C. At the moment I'm focused in learning software engineering concepts, including: architecture, cloud computing, clean code, design patterns and deep OOP concepts.",
   paragraphThree:
