@@ -25,7 +25,7 @@ export default () => {
         <meta property="og:description" content="@marciorasf personal website" />
         <meta
           property="og:image"
-          content="/static/50920fc8de5067e573f87412c101d551/46604/favicon.png"
+          content="https://marciorasf.s3.sa-east-1.amazonaws.com/favicon.png"
         />
         <meta property="og:author" content="marciorasf" />
       </Helmet>
