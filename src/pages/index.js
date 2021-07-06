@@ -19,6 +19,15 @@ export default () => {
         <title>{title}</title>
         <html lang="en" />
         <meta name="description" content={description} />
+        <meta property="og:url" content="https://marciorasf.space/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="marciorasf" />
+        <meta property="og:description" content="@marciorasf personal website" />
+        <meta
+          property="og:image"
+          content="/static/50920fc8de5067e573f87412c101d551/46604/profile.png"
+        />
+        <meta property="og:author" content="marciorasf" />
       </Helmet>
       <App />
     </>
