@@ -41,12 +41,22 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={750} delay={500} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth duration={1000}>
+              <Link to="about" smooth duration={750}>
                 {cta}
               </Link>
             </span>
           </p>
         </Fade>
+
+        <div className="hero-arrow">
+          <Fade bottom duration={750} delay={500} distance="30px">
+            <Link to="about" smooth duration={750}>
+              <button type="button">
+                <i className="fa fa-chevron-down fa-inverse" />
+              </button>
+            </Link>
+          </Fade>
+        </div>
       </Container>
     </section>
   );
