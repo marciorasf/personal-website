@@ -15,6 +15,11 @@ const footer = {
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/marciorasf/',
     },
+    {
+      id: nanoid(),
+      name: 'envelope',
+      url: 'mailto:marciorasf@gmail.com',
+    },
   ],
 };
 
